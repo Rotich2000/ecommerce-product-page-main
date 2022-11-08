@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar-container">
+          <img class="menu-humberger" src="./images/icon-menu.svg" alt="" srcset="">
+        <div class="logo"><h1>sneakers</h1></div>
+        <div class="navbar-links">
+          <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="navbar-profile">
+          <div class="cart">
+            <img src="./images/icon-cart.svg" alt="cart" srcset="" />
+            <span class="counter">1</span>
+            <div class="drop-down">
+              <h2>Cart</h2>
+              <hr>
+              <div class="cart-items">
+                <!-- <div class="item">
+                  <div class="item-container">
+                    <img src="./images/image-product-1.jpg" alt="product 1" srcset="">
+                    <div class="item-desc">
+                      <p>Fall Limited Edition Sneakers</p>
+                      <h4>$375.00</h4>
+                    </div>
+                    <img class="delete" src="./images/icon-delete.svg" alt="delete" srcset="">
+                  </div>
+                </div>
+                <button type="button">Checkout</button> -->
+              </div>
+            </div>
+          </div>
+          <img
+            class="avatar"
+            src="./images/image-avatar.png"
+            alt="user"
+            srcset=""
+          />
+        </div>
+      </div>
+    </nav>
+    <div class="rule">
+      <div class="horizontal-rule"></div>
+    </div>
+
+    <!-- Body section -->
+    <section class="section-container">
+      <div class="section-content">
+        <div class="section-image">
+          <img src="./images/image-product-1.jpg" alt="product1" srcset="" />
+          <div class="section-list-items">
+            <img src="./images/image-product-1.jpg" alt="product1" srcset="">
+            <img src="./images/image-product-2.jpg" alt="product2" srcset="">
+            <img src="./images/image-product-3.jpg" alt="product3" srcset="">
+            <img src="./images/image-product-4.jpg" alt="product4" srcset="">
+          </div>
+        </div>
+        <div class="section-description">
+         <!-- html is rendered by app.js -->
+         
+        </div>
+      </div>
+      
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Dennis Rotich</a>.
+    </div>
+  
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+      integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"
+      integrity="sha512-YzMW3OzvgtVpIIPPpjnCy8wVTq5slHRrxnLH1oD5dkVjZf8+8DJYd+GYmmWXZNmroTqKXFFzFS3XZ/LBvaNgZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./product.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
